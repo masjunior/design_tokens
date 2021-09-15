@@ -1,0 +1,23 @@
+---
+global:
+  type: color
+  category: color-highlight
+
+imports:
+  - ./aliases.yml
+
+props:
+  color-highlight-darkest:
+    value: '{!color-highlight-darkest}'
+  
+  color-highlight-dark:
+    value: '{!color-highlight-dark}'
+  
+  color-highlight-medium:
+    value: '{!color-highlight-medium}'
+
+  color-highlight-light:
+    value: '{!color-highlight-light}'
+  
+  color-highlight-lightest:
+    value: '{!color-highlight-lightest}'

@@ -1,0 +1,11 @@
+---
+global:
+  type: aliases
+  category: pallet-color-brand
+
+aliases:
+  color-brand-darkest: '#002D7A'
+  color-brand-dark: '#0247BE'
+  color-brand-medium: '#005DFF'
+  color-brand-light: '#3881FF'
+  color-brand-lightest: '#77A9FF'

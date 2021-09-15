@@ -1,0 +1,11 @@
+---
+global:
+  type: aliases
+  category: pallet-color-highlight
+
+aliases:
+  color-highlight-darkest: '#A53403'
+  color-highlight-dark: '#DA5D02'
+  color-highlight-medium: '#FF6D00'
+  color-highlight-light: '#FFB17B'
+  color-highlight-lightest: '#FFE6D4'

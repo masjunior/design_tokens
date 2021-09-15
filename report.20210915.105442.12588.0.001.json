@@ -1,0 +1,467 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210915.105442.12588.0.001.json",
+    "dumpEventTime": "2021-09-15T10:54:42Z",
+    "dumpEventTimeStamp": "1631714082760",
+    "processId": 12588,
+    "cwd": "/home/marco_newgo/Documentos/NewGo/SMILES/design_tokens",
+    "commandLine": [
+      "/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node",
+      "/home/marco_newgo/.sonarlint/work/.sonartmp_11877401171392115275/eslint-bridge-bundle/package/bin/server",
+      "38737",
+      "127.0.0.1",
+      "/home/marco_newgo/Documentos/Projeto_ReactTS/UI_KIT_MIG/smiles-ui-kit-react",
+      "true",
+      "true",
+      ""
+    ],
+    "nodejsVersion": "v12.13.0",
+    "glibcVersionRuntime": "2.31",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.11.0-7633-generic",
+    "osVersion": "#35~1630100930~20.04~ae2753e-Ubuntu SMP Mon Aug 30 18:23:52 UTC ",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 1850,
+        "user": 1762000,
+        "nice": 2800,
+        "sys": 385000,
+        "idle": 21169900,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 1300,
+        "user": 2011100,
+        "nice": 2900,
+        "sys": 459400,
+        "idle": 20835400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 1300,
+        "user": 1749200,
+        "nice": 2900,
+        "sys": 426200,
+        "idle": 21180800,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 1700,
+        "user": 1769200,
+        "nice": 2200,
+        "sys": 372600,
+        "idle": 21209400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 800,
+        "user": 1632500,
+        "nice": 3600,
+        "sys": 357900,
+        "idle": 21298500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 2000,
+        "user": 1585300,
+        "nice": 2100,
+        "sys": 336800,
+        "idle": 20847200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 1400,
+        "user": 1719000,
+        "nice": 2400,
+        "sys": 451600,
+        "idle": 21043800,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
+        "speed": 1200,
+        "user": 1685800,
+        "nice": 2500,
+        "sys": 369400,
+        "idle": 21291600,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "b8:76:3f:78:f2:3b",
+        "address": "192.168.0.120",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "b8:76:3f:78:f2:3b",
+        "address": "fe80::710:d92f:dadf:cdef",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "pop-os"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b027f5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000009d9fc3",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b37dbe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b38139",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce34f5",
+      "symbol": " [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce3b86",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cefa1a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf0925",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf3338",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cb9c67",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000fefb9b",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000013725d9",
+      "symbol": " [/home/marco_newgo/.nvm/versions/node/v12.13.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2154184704,
+    "totalCommittedMemory": 2150496824,
+    "usedMemory": 2142444960,
+    "availableMemory": 49611904,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 1306792,
+        "capacity": 2094976,
+        "used": 320072,
+        "available": 1774904
+      },
+      "old_space": {
+        "memorySize": 2023337984,
+        "committedMemory": 2023065272,
+        "capacity": 2019126264,
+        "used": 2017244408,
+        "available": 1881856
+      },
+      "code_space": {
+        "memorySize": 3833856,
+        "committedMemory": 3696960,
+        "capacity": 3216768,
+        "used": 3216768,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2464352,
+        "capacity": 1993760,
+        "used": 1993760,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 119308288,
+        "committedMemory": 119308288,
+        "capacity": 119087000,
+        "used": 119087000,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550656,
+        "used": 550656,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094976,
+        "used": 0,
+        "available": 2094976
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 103.983,
+    "kernelCpuSeconds": 1.99081,
+    "cpuConsumptionPercent": 225.476,
+    "maxRss": 2256314368,
+    "pageFaults": {
+      "IORequired": 22,
+      "IONotRequired": 730824
+    },
+    "fsActivity": {
+      "reads": 2168,
+      "writes": 24
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 44.0956,
+    "kernelCpuSeconds": 0.86807,
+    "cpuConsumptionPercent": 95.6674,
+    "fsActivity": {
+      "reads": 2168,
+      "writes": 24
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "PATH": "/home/marco_newgo/.nvm/versions/node/v12.13.0/bin:/home/marco_newgo/.sdkman/candidates/java/current/bin:/home/marco_newgo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/mssql-tools/bin:/home/marco_newgo/Android/Sdk/platform-tools:/home/marco_newgo/Android/Sdk/tools",
+    "SDKMAN_VERSION": "5.11.2+698",
+    "XMODIFIERS": "@im=ibus",
+    "GDMSESSION": "pop",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus,guid=090bc05b27fad42e3ecb61116141f226",
+    "VSCODE_PID": "8986",
+    "ANDROID_HOME": "/home/marco_newgo/Android/Sdk",
+    "SSH_AGENT_PID": "2026",
+    "COLORTERM": "truecolor",
+    "LC_PAPER": "pt_BR.UTF-8",
+    "SDKMAN_DIR": "/home/marco_newgo/.sdkman",
+    "SESSION_MANAGER": "local/pop-os:@/tmp/.ICE-unix/2180,unix/pop-os:/tmp/.ICE-unix/2180",
+    "USERNAME": "marco_newgo",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "PWD": "/home/marco_newgo/Documentos/NewGo/SMILES/design_tokens",
+    "MANAGERPID": "1557",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"pt-br\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "LANGUAGE": "pt_BR:en",
+    "NVM_CD_FLAGS": "",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "RECOMMENDER_API_URL": "https://f8a-analytics-2445582058137.production.gw.apicast.io/api/v2",
+    "SDKMAN_CANDIDATES_API": "https://api.sdkman.io/2",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "VSCODE_PIPE_LOGGING": "true",
+    "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/0ddd0cc8_212c_44ed_8bef_3a0e78edaf56",
+    "GTK_MODULES": "gail:atk-bridge:appmenu-gtk-module",
+    "DBUS_STARTER_ADDRESS": "unix:path=/run/user/1000/bus,guid=090bc05b27fad42e3ecb61116141f226",
+    "SHLVL": "1",
+    "JAVA_HOME": "/home/marco_newgo/.sdkman/candidates/java/current",
+    "TERM": "xterm-256color",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-pop:/etc/xdg",
+    "VSCODE_CRASH_REPORTER_START_OPTIONS": "{\"companyName\":\"Microsoft\",\"productName\":\"VSCode\",\"submitURL\":\"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=879d188b-6955-4aba-bea2-60328fa7a1f7&iid=879d188b-6955-4aba-bea2-60328fa7a1f7&sid=879d188b-6955-4aba-bea2-60328fa7a1f7\",\"uploadToServer\":true}",
+    "PROVIDE_FULLSTACK_ACTION": "true",
+    "LC_NAME": "pt_BR.UTF-8",
+    "XDG_SESSION_CLASS": "user",
+    "_": "/usr/bin/code",
+    "VSCODE_CWD": "/home/marco_newgo/Documentos/NewGo/SMILES/design_tokens",
+    "DESKTOP_SESSION": "pop",
+    "XDG_MENU_PREFIX": "gnome-",
+    "VTE_VERSION": "6003",
+    "QT_ACCESSIBILITY": "1",
+    "BREAKPAD_DUMP_LOCATION": "/home/marco_newgo/.config/Code/exthost Crash Reports",
+    "TELEMETRY_ID": "1353e43f-48ca-4df4-93ca-05f157cd8105",
+    "NVM_BIN": "/home/marco_newgo/.nvm/versions/node/v12.13.0/bin",
+    "VSCODE_IPC_HOOK": "/run/user/1000/vscode-8a7a696a-1.60.1-main.sock",
+    "LC_MEASUREMENT": "pt_BR.UTF-8",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "INVOCATION_ID": "213e9711ef324f2cb63267cfb1b17449",
+    "LC_TELEPHONE": "pt_BR.UTF-8",
+    "XDG_DATA_DIRS": "/usr/share/pop:/home/marco_newgo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "LC_TIME": "pt_BR.UTF-8",
+    "PAPERSIZE": "a4",
+    "VSCODE_LOG_STACK": "false",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "JOURNAL_STREAM": "8:43943",
+    "LOGNAME": "marco_newgo",
+    "UUID": "78ec95c7-f28f-481e-a52a-e69141d4beac",
+    "IM_CONFIG_PHASE": "1",
+    "SHELL": "/bin/bash",
+    "LC_ADDRESS": "pt_BR.UTF-8",
+    "OLDPWD": "/home/marco_newgo/Documentos/NewGo/SMILES",
+    "VSCODE_LOG_NATIVE": "false",
+    "THREE_SCALE_USER_TOKEN": "9e7da76708fe374d8c10fa752e72989f",
+    "VSCODE_CODE_CACHE_PATH": "/home/marco_newgo/.config/Code/CachedData/83bd43bc519d15e50c4272c6cf5c1479df196a4d",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "pop:GNOME",
+    "VSCODE_CLI": "1",
+    "VSCODE_VERBOSE_LOGGING": "true",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "XDG_SESSION_DESKTOP": "pop",
+    "LC_IDENTIFICATION": "pt_BR.UTF-8",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "LC_MONETARY": "pt_BR.UTF-8",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "QT_IM_MODULE": "ibus",
+    "UTM_SOURCE": "vscode",
+    "ELECTRON_NO_ATTACH_CONSOLE": "1",
+    "GNOME_TERMINAL_SERVICE": ":1.137",
+    "LANG": "pt_BR.UTF-8",
+    "XDG_SESSION_TYPE": "x11",
+    "DISPLAY": ":1",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "VSCODE_IPC_HOOK_EXTHOST": "/run/user/1000/vscode-ipc-e812e4c9-d0e9-4293-b4fd-84693bd0cd7f.sock",
+    "SDKMAN_CANDIDATES_DIR": "/home/marco_newgo/.sdkman/candidates",
+    "GOLANG_EXECUTABLE": "go",
+    "NVM_DIR": "/home/marco_newgo/.nvm",
+    "GDK_BACKEND": "x11",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "SDKMAN_PLATFORM": "linuxx64",
+    "ANDROID_SDK_ROOT": "/home/marco_newgo/Android/Sdk/",
+    "USER": "marco_newgo",
+    "WINDOWPATH": "2",
+    "LC_NUMERIC": "pt_BR.UTF-8",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "GNOME_SHELL_SESSION_MODE": "pop",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "DBUS_STARTER_BUS_TYPE": "session",
+    "HOME": "/home/marco_newgo"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 67108864,
+      "hard": 67108864
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 63169,
+      "hard": 63169
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}

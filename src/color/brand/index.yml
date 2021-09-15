@@ -1,0 +1,23 @@
+---
+global:
+  type: color
+  category: color-brand
+
+imports:
+  - ./aliases.yml
+
+props:
+  color-brand-darkest:
+    value: '{!color-brand-darkest}'
+  
+  color-brand-dark:
+    value: '{!color-brand-dark}'
+  
+  color-brand-medium:
+    value: '{!color-brand-medium}'
+
+  color-brand-light:
+    value: '{!color-brand-light}'
+  
+  color-brand-lightest:
+    value: '{!color-brand-lightest}'

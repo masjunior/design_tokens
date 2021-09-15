@@ -1,0 +1,23 @@
+---
+global:
+  type: color
+  category: color-neutral
+
+imports:
+  - ./aliases.yml
+
+props:
+  color-neutral-darkest:
+    value: '{!color-neutral-darkest}'
+  
+  color-neutral-dark:
+    value: '{!color-neutral-dark}'
+  
+  color-neutral-medium:
+    value: '{!color-neutral-medium}'
+
+  color-neutral-light:
+    value: '{!color-neutral-light}'
+  
+  color-neutral-lightest:
+    value: '{!color-neutral-lightest}'

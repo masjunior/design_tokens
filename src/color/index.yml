@@ -1,0 +1,7 @@
+imports:
+  - ./neutral/index.yml
+  - ./brand/index.yml
+  - ./highlight/index.yml
+
+global: 
+  category: color

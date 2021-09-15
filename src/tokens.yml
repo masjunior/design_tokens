@@ -1,0 +1,7 @@
+# List all tokens files
+# https://github.com/salesforce-ux/theo#overview
+
+imports:
+  - ./color/index.yml
+global:
+  category: tokens

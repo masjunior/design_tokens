@@ -1,0 +1,37 @@
+{
+  "name": "design_tokens",
+  "version": "1.0.0",
+  "description": "Design Tokens with theo",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "gulp-theo": "^2.0.1",
+    "theo": "^8.1.5"
+  },
+  "scripts": {
+    "web": "theo src/tokens.yml --transform web --format scss --dest dist",
+    "android": "theo src/tokens.yml --transform android --format android.xml --dest dist",
+    "ios": "theo src/tokens.yml --transform ios --format ios.json --dest dist"
+  },
+  "keywords": [
+    "tokens",
+    "design tokens",
+    "design system"
+  ],
+  "author": "marco_aurelio <marco.aurelio@newgo.com.br>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:masjunior/design_tokens.git"
+  },
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
+}
